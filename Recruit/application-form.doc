@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>生物探索团队本科生申请表</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 2cm 1.8cm;
+      }
+
+      body {
+        margin: 0;
+        color: #111;
+        font-family: SimSun, "Microsoft YaHei", Arial, sans-serif;
+        font-size: 11pt;
+        line-height: 1.45;
+      }
+
+      h1 {
+        margin: 0 0 18pt;
+        text-align: center;
+        font-family: "Microsoft YaHei", SimSun, Arial, sans-serif;
+        font-size: 20pt;
+        font-weight: 700;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      td {
+        border: 1px solid #111;
+        padding: 6pt 7pt;
+        vertical-align: middle;
+        word-break: break-word;
+      }
+
+      .label {
+        width: 13%;
+        text-align: center;
+        font-weight: 700;
+        background: #f2f6f4;
+      }
+
+      .field {
+        width: 20%;
+        min-height: 24pt;
+      }
+
+      .section-label {
+        text-align: center;
+        font-weight: 700;
+        background: #f2f6f4;
+      }
+
+      .choice {
+        line-height: 1.85;
+      }
+
+      .large-cell {
+        height: 92pt;
+        vertical-align: top;
+      }
+
+      .medium-cell {
+        height: 64pt;
+        vertical-align: top;
+      }
+
+      .note {
+        margin: 10pt 0 0;
+        color: #333;
+        font-size: 10.5pt;
+        line-height: 1.6;
+      }
+
+      .signature {
+        margin-top: 20pt;
+        text-align: right;
+        line-height: 2.1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>生物探索团队本科生申请表</h1>
+
+    <table>
+      <tr>
+        <td class="label">姓名</td>
+        <td class="field"></td>
+        <td class="label">学校</td>
+        <td class="field"></td>
+        <td class="label">年级</td>
+        <td class="field"></td>
+      </tr>
+      <tr>
+        <td class="label">专业</td>
+        <td colspan="2"></td>
+        <td class="label">每周可投入时间</td>
+        <td colspan="2">□ 3-5 小时　□ 6-8 小时　□ 8 小时以上</td>
+      </tr>
+      <tr>
+        <td class="label">邮箱</td>
+        <td colspan="2"></td>
+        <td class="label">微信或电话</td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td class="section-label">感兴趣方向</td>
+        <td class="choice" colspan="5">
+          □ 分子/蛋白表征与生成设计　　
+          □ 组学规律挖掘与医学 AI　　
+          □ 药物、材料、化学生物学相关任务　　
+          □ AI for Science 方法、数据集与模型复现
+        </td>
+      </tr>
+      <tr>
+        <td class="section-label">感兴趣项目</td>
+        <td class="choice" colspan="5">
+          □ AI-BAT　□ AI-老药新用　□ AI-LNP　□ AI-生物化学　□ AI-级联催化逆合成<br>
+          □ AI-有机光伏材料　□ AI-抗冻肽　□ AI-可变蛋白　□ AI-表观遗传蛋白挖掘　□ AI-吸附质放置
+        </td>
+      </tr>
+      <tr>
+        <td class="section-label">相关课程</td>
+        <td class="medium-cell" colspan="5"></td>
+      </tr>
+      <tr>
+        <td class="section-label">项目 / 科研 / 竞赛经历</td>
+        <td class="large-cell" colspan="5"></td>
+      </tr>
+      <tr>
+        <td class="section-label">会使用的工具或技能</td>
+        <td class="medium-cell" colspan="5">
+          例如：Python、机器学习、深度学习、生信分析、分子模拟、实验技能、文献阅读等。
+        </td>
+      </tr>
+      <tr>
+        <td class="section-label">为什么想加入</td>
+        <td class="large-cell" colspan="5"></td>
+      </tr>
+      <tr>
+        <td class="section-label">你想探索的问题</td>
+        <td class="large-cell" colspan="5"></td>
+      </tr>
+      <tr>
+        <td class="section-label">其他补充</td>
+        <td class="medium-cell" colspan="5"></td>
+      </tr>
+    </table>
+
+  
+    </p>
+
+    <div class="signature">
+      申请人签名：　　　　　　　　　　　　<br>
+      年　　　月　　　日
+    </div>
+  </body>
+</html>
